@@ -1,0 +1,478 @@
+.main__title {
+  font-family: Exo;
+  font-size: 16px;
+  line-height: 50px;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  color: #ff6d6d;
+}
+
+.main__suptitle {
+  font-family: Exo;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #282828;
+}
+
+.main__suptitle span {
+  color: #ff6d6d;
+}
+
+.main__text {
+  opacity: 0.65;
+  font-family: Exo;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #282828;
+}
+
+.info__content {
+  padding: 0 15px;
+}
+
+.info__content::after {
+  content: "";
+  width: 568px;
+  height: 724px;
+  background: url("../img/rectangle_22_17118.png") 0 0 no-repeat;
+  position: absolute;
+  right: 0;
+  top: 808px;
+}
+
+@media (max-width: 1190px) {
+  .info__content::after {
+    content: none;
+  }
+}
+
+.info__title {
+  margin-top: 190px;
+}
+
+.info__suptitle {
+  margin-bottom: 40px;
+  max-width: 600px;
+}
+
+.info__text {
+  max-width: 600px;
+  margin-bottom: 165px;
+}
+
+.main__features {
+  background: url("../img/bg2.png") center/cover no-repeat;
+}
+
+.features__content {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.features__title {
+  padding-top: 135px;
+  text-align: center;
+}
+
+.features__suptitle {
+  text-align: center;
+}
+
+.features__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.features__block {
+  margin-top: 90px;
+  margin-bottom: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.features__img {
+  width: 67px;
+  height: 67px;
+  margin: 0 auto;
+}
+
+.features__suptext {
+  font-family: Exo;
+  font-size: 22px;
+  line-height: 49px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #282828;
+}
+
+.design__content {
+  margin-top: 100px;
+  margin-bottom: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.design__title {
+  margin-top: 30px;
+}
+
+.design__suptitle {
+  margin-bottom: 35px;
+}
+
+.main__founders {
+  background: url("../img/bg3.png") center/cover no-repeat;
+}
+
+.founders__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.founders__block {
+  margin: 0 auto;
+  max-width: 350px;
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.founders__brands {
+  padding: 0 10px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.founders__img {
+  margin: 0 auto;
+  width: 80px;
+  height: 80px;
+  background-color: #4e4e5e;
+  border: 2px solid #1d1e24;
+  -webkit-transition-duration: 0.3s;
+       -o-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.founders__img:hover {
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.founders__name {
+  font-family: Exo;
+  font-size: 22px;
+  line-height: 49px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.founders__rank {
+  font-family: Exo;
+  font-size: 16px;
+  line-height: 49px;
+  font-weight: 500;
+  color: #ff6d6d;
+}
+
+.founders__quote {
+  opacity: 0.65;
+  font-family: Exo;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.brands__block {
+  margin-top: 100px;
+  margin-bottom: 80px;
+  max-width: 130px;
+  max-height: 85px;
+  opacity: 0.35;
+  width: 100%;
+  height: 100%;
+  -webkit-transition-duration: 0.3s;
+       -o-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.brands__block:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.window__content {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.window__title {
+  margin-top: 100px;
+}
+
+.window__suptitle {
+  margin-bottom: 50px;
+  padding: 0 10px;
+}
+
+.window__text {
+  margin: 0 auto;
+  max-width: 700px;
+  margin-bottom: 100px;
+}
+
+.main__form {
+  background-color: #323969;
+}
+
+.form__header {
+  text-align: center;
+}
+
+.form__title {
+  padding-top: 80px;
+}
+
+.form__suptitle {
+  padding: 0 10px;
+  color: #fff;
+}
+
+.form__input {
+  padding: 0px 15px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.form__input input {
+  outline: none;
+  width: 263px;
+  height: 49px;
+  opacity: 0.5;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  background: #222853;
+}
+
+.form__name::-webkit-input-placeholder {
+  font-family: Exo;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: #f6f5f3;
+}
+
+.form__name:-ms-input-placeholder {
+  font-family: Exo;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: #f6f5f3;
+}
+
+.form__name::-ms-input-placeholder {
+  font-family: Exo;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: #f6f5f3;
+}
+
+.form__name::placeholder {
+  font-family: Exo;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: #f6f5f3;
+}
+
+.form__email::-webkit-input-placeholder {
+  font-family: Exo;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: #f6f5f3;
+}
+
+.form__email:-ms-input-placeholder {
+  font-family: Exo;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: #f6f5f3;
+}
+
+.form__email::-ms-input-placeholder {
+  font-family: Exo;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: #f6f5f3;
+}
+
+.form__email::placeholder {
+  font-family: Exo;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: #f6f5f3;
+}
+
+.form__pass::-webkit-input-placeholder {
+  font-family: Exo;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: #f6f5f3;
+}
+
+.form__pass:-ms-input-placeholder {
+  font-family: Exo;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: #f6f5f3;
+}
+
+.form__pass::-ms-input-placeholder {
+  font-family: Exo;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: #f6f5f3;
+}
+
+.form__pass::placeholder {
+  font-family: Exo;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: #f6f5f3;
+}
+
+.form__btn {
+  width: 258px;
+  height: 50px;
+  border: 1px solid #ff6d6d;
+  background-color: #ff6d6d;
+  color: #fff;
+  -webkit-box-shadow: 0px 3px 3px 0px rgba(14, 15, 15, 0.25);
+          box-shadow: 0px 3px 3px 0px rgba(14, 15, 15, 0.25);
+  border-radius: 3px;
+  -webkit-transition-duration: 0.3s;
+       -o-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.form__btn:hover {
+  cursor: pointer;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 10px 10px 0px rgba(14, 15, 15, 0.25);
+          box-shadow: 0px 10px 10px 0px rgba(14, 15, 15, 0.25);
+}
+
+.form__btn::-webkit-input-placeholder {
+  font-family: Exo;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: #f6f5f3;
+}
+
+.form__btn:-ms-input-placeholder {
+  font-family: Exo;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: #f6f5f3;
+}
+
+.form__btn::-ms-input-placeholder {
+  font-family: Exo;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: #f6f5f3;
+}
+
+.form__btn::placeholder {
+  font-family: Exo;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: #f6f5f3;
+}
+
+.form__comfirm {
+  padding-bottom: 60px;
+  text-align: center;
+  opacity: 0.6;
+  font-family: Exo;
+  font-size: 16px;
+  line-height: 75px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: #f6f5f3;
+}
+
+.form__comfirm a {
+  text-decoration: underline;
+  color: #f6f5f3;
+  -webkit-transition-duration: 0.3s;
+       -o-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.form__comfirm a:hover {
+  color: #ff6d6d;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding-left: 25px;
+  font-family: Exo;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: #f6f5f3;
+}
